@@ -1,0 +1,207 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Austin Williams</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Austin Williams</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">What I Do</a></li>
+						<li><a href="#two">Who I Am</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2 id="myname">Austin Williams</h2>
+					</header>
+					<p style="color: rgb(255, 255, 255) ; font-family: Futura; font-weight: bold; text-shadow:
+                    0.07em 0 black,
+                    0 0.07em black,
+                    -0.06em 0 black,
+                    0 -0.06em black;
+                    font-size: 1.5rem;">I am a Full Stack Software Engineer.<br />
+					I've worked on everything from from back-end servers, databases,
+				API's,<br /> to front-end responsive and great looking webpages,<br />
+				putting it all together into a sweet package to make a great and seamless user experience.
+				</p>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<img id="my-pic"src="images/self2.jpg"></img>
+					<p>I've worked and applied to several of my projects; JavaScript, HTML5, CSS3, React.JS/Redux, JQuery, Python, Flask, PostgreSQL, SQLAlchemy, Node.JS, Git. I have also
+						created and incorporated APIs, have used and implemented Amazon Web Services (AWS),
+						and I am always expanding my skill set to be a better version of myself than yesterday.  <a href="/images/copyofresume.pdf" target="_blank">View my full resume here.</a>
+					</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+                    <img id="my-pic"src="images/dogs.jpg"></img>
+					<p style="font-size:14px">I come from a medical background being a Surgical Technologist working in high stress environments that required extreme attention to detail. I was browsing the internet one day after being furloughed and came upon a Harvard ad for python and fell in love instantly!
+                        I resigned ASAP to be the < 3% of people to be accepted into App Academy's 6 month immersive full-stack program. I've logged over 2000+ hours learning and applying technologies you see above while working as a solo developer and team player. My strengths are a direct result from the joy I get from building something from the ground up, and bridging the gap between conceptualization and a tangible product whether it's planning and design or testing and deploying.
+					</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Work</h2>
+						<p>See examples of my work below.</p>
+					</header>
+
+					<!-- Gallery  -->
+					<div>
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/instapawlogin.PNG" class="image fit"><img src="images/instapawlogin.PNG" title="Instapaw" alt="" /></a>
+							</article>
+							<article class="from-right">
+								Instapaw is an Instagram clone where users are met with a login/splash page.
+								Signup is possible with passwords being fully encrypted when stored in the
+								database (SQLAlchemy). The back-end utilizes Python, Flask, and the entire application
+								is containerized in a docker container. Front-end technologies include
+								React.js / Redux.js. Front-end makes calls to the back-end API to create, render, update and delete data (CRUD).
+								When a user is logged in, they can like or comment on their
+								friends' recent posts, as well as search for friends as well as follow/unfollow them as they please.
+
+							</article>
+							<article class="from-left">
+                                When users post an image, this gets stored on Amazon Web Services (AWS S3), allowing for
+                                a full and dynamic user experience. The entirety of the website utilizes cutting edge
+                                algorithms and programming best practices to ensure a page refresh is never needed, thus,
+                                improving speed, reliability and ultimately, user experience.<br />
+                                Multiple modals are also utilized throughout the website to allow the user to access the website's
+                                full potential without having to navigate away from a page they were on.
+							</article>
+							<article class="from-right">
+								<a href="images/instapawupload.PNG" class="image fit"><img src="images/instapawupload.PNG" title="Instafake" alt="" /></a>
+							</article>
+						</div>
+						<div><a href="https://instapaw.herokuapp.com/" target="_blank" >Visit Instapaw by clicking here.</a></div>
+					</div>
+
+					<br />
+					<br />
+					<br />
+
+					<div>
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/revuplogin.PNG" class="image fit"><img src="images/revuplogin.PNG" title="Rev Up"
+										alt="" /></a>
+							</article>
+							<article class="from-right">
+								Rev Up is a mix between Meetup and Eventbrite, but for cars and bikes! The back-end utilizes Node.js, Python, and Flask-SQLAlchemy. The front-end
+								utilizes React.js/Redux.js and makes calls to the back-end API to create, render, update and delete data(CRUD).
+								<br />
+								This website utilizes WTForms on back-end routes for authentication and blocks non-logged in users from accessing endpoints with the help of it's validators.
+
+							</article>
+							<article class="from-left">
+								On arrival, users must be logged in or create an account to go further.
+								<br />When a user creates an event or RSVP's an event, the type of event with a link to the posting will be available on the user's calendar for the date it's scheduled.  Thanks to React/Redux, as well
+								as the most cutting edge algorithms and programming best practices, the entirety of the website
+								can be utilized to it's full potential without ever needing a page refresh. This ensures speed,
+								reliability and ultimately a great user experience.
+							</article>
+							<article class="from-right">
+								<a href="images/eventscalendar.jpg" class="image fit"><img src="images/eventscalendar.jpg" title="Rev Up"
+										alt="" /></a>
+							</article>
+						</div>
+						<div><a href="https://rev-up.herokuapp.com/" target="_blank">Visit Rev Up by clicking here.</a></div>
+					</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Say Hello!</h2>
+						<p>Email me at austinwill264@gmail.com <br />
+						or contact me on <a href="https://www.linkedin.com/in/austin-williams-44a6a21b8/" target="_blank" >LinkedIn</a>
+						</p>
+					</header>
+					<!-- <div class="box">
+						<form method="post" action="#">
+							<div class="fields">
+								<div class="field half"><input type="text" name="name" placeholder="Name" /></div>
+								<div class="field half"><input type="email" name="email" placeholder="Email" /></div>
+								<div class="field"><textarea name="message" placeholder="Message" rows="6"></textarea></div>
+							</div>
+							<ul class="actions special">
+								<li><input type="submit" value="Send Message" /></li>
+							</ul>
+						</form>
+					</div> -->
+				</div>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="icons">
+						<li><a href="https://www.linkedin.com/in/austin-williams-44a6a21b8/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+						<li><a href="https://github.com/AustinW24" target="_blank" class="icon brands fa-github"><span class="label">Github</span></a></li>
+					</ul>
+
+				<!-- Menu -->
+					<ul class="menu">
+						<li>&copy; Austin Williams</li>
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
